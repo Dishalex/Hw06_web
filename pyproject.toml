@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hw06-web"
+version = "0.1.0"
+description = "Relation Data Bases study work"
+authors = ["Dishalex <dishalex@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "hw06_web"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+faker = "^19.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
